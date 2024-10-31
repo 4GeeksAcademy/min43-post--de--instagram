@@ -1,0 +1,47 @@
+body {
+    background: black;
+}
+
+.post {
+    background: white;
+    align-self: center;
+    margin-left: 33%;
+    margin-right: 33%;
+    width: 33%;
+    border: 2px black;
+
+
+}
+.post-header{
+    border: 2px black;
+    height: 50px ;
+    content-visibility: visible;
+    display: flex;
+}
+
+.header-left {
+    display: flex;
+    align-items:center ;
+    flex-direction: row;
+    height: 50px;
+
+
+}
+.header-right{
+    margin-left: 98%;
+    height: 50px;
+    align-items: center;
+   
+}
+.html-logo{
+    margin-left: 10px;
+    width: 50px;
+
+
+}
+.header-description{ display: flex;
+    flex-direction: column;
+    text-align: justify;
+
+}
+img{width: 100%;}
